@@ -18,7 +18,10 @@ public class SupermarketLogoTest extends SupermarketBaseTest {
 		home=home.logoClick();
 		System.out.println("1. click on  Sas supermarket logo");
 		Assert.assertTrue(home.foodcourt.isDisplayed());
-		Thread.sleep(2000);}
+		
+		
+	}
+		
 		
 		
 		@Test
