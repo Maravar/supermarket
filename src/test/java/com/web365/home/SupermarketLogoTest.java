@@ -28,10 +28,13 @@ public class SupermarketLogoTest extends SupermarketBaseTest {
 			
 			SupermarketHomePage home=new SupermarketHomePage(driver);
 			System.out.println("Navigate to SAS.am");
+			Thread.sleep(3000);
 			SupermarketFoodCourtPage foodcourt=home.goToFoodCourt();
 			System.out.println("1.click on Food court logo");
+			Thread.sleep(3000);
 			Assert.assertTrue(foodcourt.foodimg.isDisplayed());
-			Thread.sleep(3000);}
+			Thread.sleep(3000);
+			}
 			
 			
 		
